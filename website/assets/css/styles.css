@@ -1,196 +1,164 @@
 @charset "UTF-8";
-
-article, aside, footer, header, main, nav, section {
-  display: block;
+ article, aside, footer, header, main, nav, section {
+     display: block;
 }
-
-html, body, h1, h2, h3, ul, li, a, p, 
-article, aside, footer, header, main, nav, section {
-  margin: 0;
+ html, body, h1, h2, h3, ul, li, a, p, article, aside, footer, header, main, nav, section {
+     margin: 0;
 }
-
-.banner {
-  background-color: #11233b;
-  color: white;
-  padding: 10px 20px;
+ .banner {
+     background-color: #11233b;
+     color: white;
+     padding: 10px 20px;
 }
-
 /* Make a hero image, styles from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_hero_image */
-.hero-image {
-  background-image: url(../images/blackandwhite.jpg);  
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  display: block;
-  padding: 10em;  
+ .hero-image {
+     background-image: url(../images/blackandwhite.jpg);
+     height: 50%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     display: block;
+     padding: 10em;
 }
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-shadow: 4px 3px black;
+ .hero-text {
+     text-align: center;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color: white;
+     text-shadow: 4px 3px black;
 }
-
-.welcome {
-	font-size:50px;
+ .welcome {
+     font-size:50px;
 }
-/* End of hero image styles */ 
-
-body {
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  Background-color: #f0f0f0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+/* End of hero image styles */
+ body {
+     width: 960px;
+     margin-left: auto;
+     margin-right: auto;
+     Background-color: #f0f0f0;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 15px;
 }
-
-.title {
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;	
+ .title {
+     text-align: center;
+     padding-top: 10px;
+     padding-bottom: 10px;
 }
-
-.h3body {
-	text-align: center;
-	color: white;
-	text-shadow: 1px 1px black;
-	font-size: 30px;
+ .h3body {
+     text-align: center;
+     color: white;
+     text-shadow: 1px 1px black;
+     font-size: 30px;
 }
-
-nav {
-  background-color: white;
-  padding: 5px;
-  margin-top: 1px;
-  border-top: 1px solid #909090;
-  border-bottom: 1px solid #909090;
-  margin-bottom: 10px;
-  text-align: center;
+ nav {
+     background-color: white;
+     padding: 5px;
+     margin-top: 1px;
+     border-top: 1px solid #909090;
+     border-bottom: 1px solid #909090;
+     margin-bottom: 10px;
+     text-align: center;
 }
-
-.navlist {
-    display: inline;
-    margin-left: 15px;
-    margin-right: 15px;
-    font-size: 25px;
-    font-variant: small-caps;
-    /* font-weight: bold; */
-    /* margin: 10px 10px; */
-    top: -2px;
-    padding: 10px;
+ .navlist {
+     display: inline;
+     margin-left: 15px;
+     margin-right: 15px;
+     font-size: 25px;
+     font-variant: small-caps;
+     padding: 10px;
 }
-
 /* how to remove underline https://stackoverflow.com/questions/2041388/how-to-remove-the-underline-for-anchorslinks/2041404 */
-.navitems {
-  color: black;
-  text-decoration: none;
-  padding: 3px 5px ;
-  border: none;
-  border-radius: 2px;
+ .navitems {
+     color: black;
+     text-decoration: none;
+     padding: 3px 5px ;
+     border: none;
+     border-radius: 2px;
 }
-
 /* Using Google Colour Picker for the RGB values */
-.navitems:hover {
-	color: rgb(6, 98, 196);
-	background-color: rgb(234, 234, 234);
+ .navitems:hover {
+     color: rgb(6, 98, 196);
+     background-color: rgb(234, 234, 234);
 }
-
-.navitems:active {
-	color: rgb(6, 98, 196);
-	background-color: rgb(234, 234, 234);
+ .navitems:active {
+     color: rgb(6, 98, 196);
+     background-color: rgb(234, 234, 234);
 }
-
-li a {
-  color: white;
+ li a {
+     color: white;
 }
-
-.topsection {
-  background-color: #bbbbbb;
-  padding: 5px;
-  margin-top: 10px;
+ .topsection {
+     background-color: #bbbbbb;
+     padding: 5px;
+     margin-top: 10px;
 }
-
-section {
-  background-color: #bbbbbb;
-  padding: 5px;
+ section {
+     background-color: #bbbbbb;
+     padding: 5px;
 }
-
-/* Content images */ 
-.contentimage {
-	height: 404px;
-    border: 1px solid #bbb;
-    padding: 5px;
-    width: 906px;
-    border-radius: 8px;
+/* Content images */
+ .contentimage {
+     height: 404px;
+     border: 1px solid #bbb;
+     padding: 5px;
+     width: 906px;
+     border-radius: 8px;
 }
-
-.imagethree {
-	height: 200px;
-	width: 300px;
+ .imagethree {
+     height: 200px;
+     width: 300px;
 }
-
-.imagefour {
-	height: 200px;
-	width: 300px;
+ .imagefour {
+     height: 200px;
+     width: 300px;
 }
-
-article {
-  background-color: white;
-  margin-top: 5px;
-  padding: 10px 15px;
+ article {
+     background-color: white;
+     margin-top: 5px;
+     padding: 10px 15px;
 }
-
-.topbtn {
-    float: right;
-    background-color: rgb(216, 214, 214);
-    border: none;
-    border-radius: 4px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    /* display: inline-block; */
-    /* margin-left: 30px; */
-    padding: 10px;
+ .topbtn {
+     float: right;
+     background-color: rgb(216, 214, 214);
+     border: none;
+     border-radius: 4px;
+     color: white;
+     text-align: center;
+     text-decoration: none;
+     font-size: 20px;
+     padding: 10px;
 }
-
-.topbtn:hover {
-  color: rgb(6, 98, 196);
-  background-color: rgb(234, 234, 234);
+ .topbtn:hover {
+     color: rgb(6, 98, 196);
+     background-color: rgb(234, 234, 234);
 }
-
-footer {
-    clear: both;
-    padding: 35px 30px;
-    font-size: 0.8em;
-    font-weight: bold;
-    color: black;
-	Background-color: #f0f0f0;
+ footer {
+     clear: both;
+     padding: 35px 30px;
+     font-size: 0.8em;
+     font-weight: bold;
+     color: black;
+     Background-color: #f0f0f0;
 }
-
-.footerclicked:visited {
-	color: grey;
+ .footerclicked:visited {
+     color: grey;
 }
-
 /* Font styles for content and headings https://www.w3schools.com/cssref/css_websafe_fonts.asp */
-.content {
-	color: black;
-    font-family: "Tahoma", "Geneva", "sans-serif";
-    font-size: 1em;
-    letter-spacing: 1.5px;
-    text-align: justify;
-    border: 2px solid #FFF;	
-	padding-bottom: 10px;
+ .content {
+     color: black;
+     font-family: "Tahoma", "Geneva", "sans-serif";
+     font-size: 1em;
+     letter-spacing: 1.5px;
+     text-align: justify;
+     border: 2px solid #FFF;
+     padding-bottom: 10px;
 }
-	
-.headings {
-	font-family: "Verdana", "Geneva", "sans-serif";
-	font-size: 1.2em;
-	text-align: center;
-}	
+ .headings {
+     font-family: "Verdana", "Geneva", "sans-serif";
+     font-size: 1.2em;
+     text-align: center;
+}
+ 
