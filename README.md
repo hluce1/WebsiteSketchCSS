@@ -1,2 +1,2 @@
-# WebsiteSketchCSS
+# Rationale
 Second Front-End assessment
