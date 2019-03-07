@@ -91,18 +91,18 @@
      color: white;
 }
  .topsection {
-     background-color: #bbbbbb;
+     background-color: rgb(187, 187, 187);
      padding: 5px;
      margin-top: 10px;
 }
  section {
-     background-color: #bbbbbb;
+     background-color: rgb(187, 187, 187);
      padding: 5px;
 }
 /* Content images */
  .contentimage {
      height: 404px;
-     border: 1px solid #bbb;
+     border: 1px solid rgb(187, 187, 187);
      padding: 5px;
      width: 906px;
      border-radius: 8px;
