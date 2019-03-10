@@ -90,40 +90,11 @@
      color: rgb(6, 98, 196);
      background-color: rgb(234, 234, 234);
 }
- article {
-     background-color: white;
-     margin-top: 5px;
-     padding: 10px 15px;
-     border-style: solid;
-     border-radius: 34px;
-     border-color: white;
-}
- .topsection {
-    /* background-color: rgb(187, 187, 187);
-     */
-     padding: 5px;
-     margin-top: 10px;
-}
- .indent-1 {
-     float: left;
-     width: 48%;
-     margin-top: 2em;
-}
- .indent-2 {
-     float: left;
-     width: 52%;
-     margin-top: 2em;
-}
- .divorigins {
-     display: inline-block;
-}
- section {
-    /* background-color: rgb(187, 187, 187);
-     */
-     padding: 5px;
-}
  li a {
      color: white;
+}
+ section {
+     padding: 5px;
 }
 /* Content images */
  .contentimage {
@@ -141,7 +112,6 @@
      height: 200px;
      width: 300px;
 }
- */
  .topbtn {
      float: right;
      background-color: rgb(216, 214, 214);
@@ -159,13 +129,14 @@
      background-color: rgb(234, 234, 234);
 }
  footer {
-     margin-top: 40px;
+     margin-top: 0px;
      clear: both;
      padding: 1.2em;
      font-size: 0.8em;
      font-weight: bold;
      color: black;
-    /* Background-color: #f0f0f0; */
+    /* Background-color: #f0f0f0;
+     */
 }
  .footerclicked:visited {
      color: grey;
@@ -185,4 +156,29 @@
      font-family: "Verdana", "Geneva", "sans-serif";
      font-size: 1.2em;
      text-align: center;
+}
+ article {
+     background-color: white;
+     margin-top: 5px;
+     padding: 10px 15px;
+     border-style: solid;
+     border-radius: 34px;
+     border-color: white;
+}
+ .topsection {
+     padding: 5px;
+     margin-top: 10px;
+}
+ .indent-1 {
+     float: left;
+     width: 48%;
+     margin-top: 2em;
+}
+ .indent-2 {
+     float: left;
+     width: 52%;
+     margin-top: 2em;
+}
+ .divorigins {
+     display: inline-block;
 }
