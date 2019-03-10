@@ -13,13 +13,14 @@
 /* Make a hero image, styles from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_hero_image */
  .hero-image {
      background-image: url(../images/blackandwhite.jpg);
-     height: 50%;
+     height: 6em; 
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
      position: relative;
      display: block;
      padding: 10em;
+	 margin-top: 26px;
 }
  #wrapper {
      text-align: center;
@@ -27,18 +28,18 @@
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
-     color: white;
-     text-shadow: 4px 3px black;
+     text-shadow: -6px -1px 19px black;
 }
  .welcome {
-     font-size:50px;
+	 font-size: 82px;
+	 color: oldlace;
 }
 /* End of hero image styles */
  body {
      width: 960px;
      margin-left: auto;
      margin-right: auto;
-     Background-color: #f0f0f0;
+     /* Background-color: #f0f0f0; */
      font-family: Arial, Helvetica, sans-serif;
      font-size: 15px;
 }
@@ -49,13 +50,14 @@
 }
  .h3body {
      text-align: center;
-     color: white;
+     color: burlywood;
      text-shadow: 1px 1px black;
      font-size: 30px;
+	 font-family:'serif'; 
 }
  nav {
      background-color: white;
-     padding: 5px;
+     padding: 10px;
      margin-top: 1px;
      border-top: 1px solid #909090;
      border-bottom: 1px solid #909090;
@@ -90,15 +92,17 @@
  li a {
      color: white;
 }
+/* testing1 
  .topsection {
      background-color: rgb(187, 187, 187);
      padding: 5px;
      margin-top: 10px;
-}
+} */
+/* testing1 
  section {
      background-color: rgb(187, 187, 187);
      padding: 5px;
-}
+} /*
 /* Content images */
  .contentimage {
      height: 404px;
@@ -115,11 +119,12 @@
      height: 200px;
      width: 300px;
 }
+/* testing1
  article {
      background-color: white;
      margin-top: 5px;
      padding: 10px 15px;
-}
+} */
  .topbtn {
      float: right;
      background-color: rgb(216, 214, 214);
@@ -130,18 +135,20 @@
      text-decoration: none;
      font-size: 20px;
      padding: 10px;
+	 margin-top: 0.6em;
 }
  .topbtn:hover {
      color: rgb(6, 98, 196);
      background-color: rgb(234, 234, 234);
 }
  footer {
+	 margin-top: 40px;
      clear: both;
-     padding: 35px 30px;
+     padding: 1.2em;
      font-size: 0.8em;
      font-weight: bold;
      color: black;
-     Background-color: #f0f0f0;
+     /* Background-color: #f0f0f0; */
 }
  .footerclicked:visited {
      color: grey;
@@ -155,6 +162,7 @@
      text-align: justify;
      border: 2px solid #FFF;
      padding-bottom: 10px;
+	 line-height: 1.2em;
 }
  .headings {
      font-family: "Verdana", "Geneva", "sans-serif";
@@ -162,3 +170,39 @@
      text-align: center;
 }
  
+ 
+ /* test copys */
+ article {
+    background-color: white;
+    margin-top: 5px;
+    padding: 10px 15px;
+    border-style: solid;
+    border-radius: 34px;
+    border-color: white;
+}
+.topsection {
+    /* background-color: rgb(187, 187, 187); */
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.indent-1 {
+	float: left;
+	width: 48%;
+	margin-top: 2em;
+}
+
+.indent-2 {
+	float: left;
+	width: 52%;
+	margin-top: 2em;
+}
+
+.divorigins {
+    display: inline-block;	
+}
+
+section {
+    /* background-color: rgb(187, 187, 187); */
+    padding: 5px;
+}
